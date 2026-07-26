@@ -1,0 +1,13 @@
+[Unit]
+Description=Automatic display rotation and per-mode scaling for detachable 2-in-1s
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/detachable-rotate.py
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=graphical-session.target
