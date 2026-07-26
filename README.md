@@ -1,4 +1,4 @@
-# Gnome detachable-rotate
+# Gnome auto rotation fix
 
 Automatic display rotation and per-mode scaling for detachable 2-in-1 laptops
 running GNOME on Wayland.
