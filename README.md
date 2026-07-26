@@ -4,7 +4,7 @@ Automatic display rotation and per-mode scaling for detachable 2-in-1 laptops
 running GNOME on Wayland.
 
 Developed on a Dell Latitude 7210 2-in-1, but nothing in it is hardware
-specific: the installer detects your machine rather than hardcoding it.
+specific: the installer detects your machine nothing hardcoded.
 
 ---
 
@@ -20,10 +20,10 @@ GNOME decides two different things from two different signals:
 Tablet mode comes from an `SW_TABLET_MODE` switch that is only reported **on
 transition**, when you physically attach or detach the base. Boot or log in
 with the base already off and that transition never happens, so GNOME still
-thinks it is a laptop.
+thinks it is a laptop even auto-rotate toggle shows up.
 
 The symptom: the rotation toggle is there and clickable, but the screen never
-rotates. Attach the base and detach it again and rotation starts working.
+rotates. Attach the base and detach it again and rotation not helps, nothing working.
 
 This service sidesteps tablet mode entirely and drives the display directly.
 
