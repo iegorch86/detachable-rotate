@@ -211,7 +211,7 @@ account and picks their own scales.
 
 ## Tested on
 
-Dell Latitude 7210 2-in-1, GNOME 50 on Fedora, Wayland.
+Dell Latitude 7210 2-in-1, GNOME 50 on Fedora 44, Wayland.
 
 It should work on any GNOME detachable, since the installer detects your
 hardware. If it does not work on yours, open an issue with the output of
